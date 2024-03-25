@@ -8,7 +8,7 @@ public class Games {
     private static String userName;
     private static int currentscreen = 0;
     public static void main(String[] args) throws SQLException {
-        String host = "jdbc:sqlite:/media/alu10472056/T7/Proyecto/Games";
+        String host = "jdbc:sqlite:src/main/resources/Games";
         con = java.sql.DriverManager.getConnection(host);
         int option;
         printTitulo();
